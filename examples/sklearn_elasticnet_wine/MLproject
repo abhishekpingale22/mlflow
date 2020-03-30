@@ -1,8 +1,8 @@
 name: tutorial
 
 #conda_env: conda.yaml
-docker_env:
-  image:  sklearn_elasticnet_wine_docker
+#docker_env:
+#  image:  sklearn_elasticnet_wine_docker
 
 entry_points:
   main:
