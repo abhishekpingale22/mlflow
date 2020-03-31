@@ -65,8 +65,7 @@ if __name__ == "__main__":
         print("  RMSE: %s" % rmse)
         print("  MAE: %s" % mae)
         print("  R2: %s" % r2)
-
-'''
+        '''
         print(mlflow.runName)
         print(mlflow.parentRunId)
         print(mlflow.user)
@@ -80,7 +79,7 @@ if __name__ == "__main__":
         print(mlflow.docker.image.name)
         print(mlflow.docker.image.id)
         print(mlflow.log-model.history)
-'''
+        '''
         mlflow.log_param("alpha", alpha)
         mlflow.log_param("l1_ratio", l1_ratio)
         mlflow.log_metric("rmse", rmse)
